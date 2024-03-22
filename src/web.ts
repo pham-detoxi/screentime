@@ -10,4 +10,12 @@ export class ScreenTimeActivityWeb
     console.log('ECHO', options);
     return options;
   }
+  async checkPermission(): Promise<boolean> {
+    console.log('check if we already has user permission');
+    return false
+}
+
+async showReport(): Promise<string> {
+  return "eh"
+  }
 }
